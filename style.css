@@ -24,7 +24,7 @@ body{
 .hero{
   min-height:75vh; display:grid; place-items:center; text-align:center;
   background:
-    url('https://i.imgur.com/vBTmzo9.jpeg') repeat,              /* noise nhẹ */
+    url('https://i.imgur.com/vBTmzo9.jpeg') center/cover no-repeat,
     linear-gradient(180deg, rgba(59,165,93,.12), transparent 45%),
     radial-gradient(1400px 500px at 50% 0, rgba(92,192,109,.18), transparent 70%);
 }
